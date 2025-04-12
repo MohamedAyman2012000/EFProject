@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="CreateForms\FrmCeratePLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateForms\FrmCreateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateForms\FrmCreateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateForms\FrmCreateOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateForms\FrmCreateOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateForms\FrmCreatePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateForms\FrmCreateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateForms\FrmUpdateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateForms\FrmUpdateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateForms\FrmUpdateOffice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateForms\FrmUpdateOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateForms\FrmUpdatePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateForms\FrmUpdatePL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateForms\FrmUpdateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewForms\ViewAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
