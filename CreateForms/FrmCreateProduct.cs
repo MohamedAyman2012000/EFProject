@@ -66,7 +66,7 @@ namespace MainProject.CreateForms
                 return;
             }
 
-            Product.Scale = (txtQtyInStock.Text.Trim() == "")?null:int.Parse(txtScale.Text);
+            Product.Scale = (txtScale.Text.Trim() == "")?null:int.Parse(txtScale.Text);
             Product.MSRP = txtMSRP.Text;
             Product.Name = txtName.Text;
             Product.Vendor = txtVendor.Text;

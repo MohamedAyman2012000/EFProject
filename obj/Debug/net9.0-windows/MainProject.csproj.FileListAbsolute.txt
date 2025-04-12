@@ -153,3 +153,4 @@ H:\My ITI\LINQ & Entity FrameWork\Entity Framework\FEProject\MainProject\obj\Deb
 H:\My ITI\LINQ & Entity FrameWork\Entity Framework\FEProject\MainProject\obj\Debug\net9.0-windows\MainProject.UpdateForms.FrmUpdateCustomer.resources
 H:\My ITI\LINQ & Entity FrameWork\Entity Framework\FEProject\MainProject\obj\Debug\net9.0-windows\MainProject.CreateForms.FrmCreateOrder.resources
 H:\My ITI\LINQ & Entity FrameWork\Entity Framework\FEProject\MainProject\obj\Debug\net9.0-windows\MainProject.UpdateForms.FrmUpdateOrder.resources
+H:\My ITI\LINQ & Entity FrameWork\Entity Framework\FEProject\MainProject\obj\Debug\net9.0-windows\MainProject.sourcelink.json

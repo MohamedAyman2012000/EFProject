@@ -64,7 +64,6 @@
             ViewUpdatePayment = new ToolStripMenuItem();
             ViewDeletePAyment = new ToolStripMenuItem();
             ViewAllPayments = new ToolStripMenuItem();
-            orderProductToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -72,7 +71,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { addToolStripMenuItem, viewToolStripMenuItem, updateToolStripMenuItem, deleteToolStripMenuItem, orderToolStripMenuItem, productLineToolStripMenuItem, paymentToolStripMenuItem, orderProductToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { addToolStripMenuItem, viewToolStripMenuItem, updateToolStripMenuItem, deleteToolStripMenuItem, orderToolStripMenuItem, productLineToolStripMenuItem, paymentToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 28);
@@ -89,28 +88,28 @@
             // ViewOfficeCreateForm
             // 
             ViewOfficeCreateForm.Name = "ViewOfficeCreateForm";
-            ViewOfficeCreateForm.Size = new Size(141, 26);
+            ViewOfficeCreateForm.Size = new Size(224, 26);
             ViewOfficeCreateForm.Text = "Create";
             ViewOfficeCreateForm.Click += ViewOfficeCreateForm_Click;
             // 
             // OfficeUpdateForm
             // 
             OfficeUpdateForm.Name = "OfficeUpdateForm";
-            OfficeUpdateForm.Size = new Size(141, 26);
+            OfficeUpdateForm.Size = new Size(224, 26);
             OfficeUpdateForm.Text = "Update";
             OfficeUpdateForm.Click += OfficeUpdateForm_Click;
             // 
             // ViewDeleteOffice
             // 
             ViewDeleteOffice.Name = "ViewDeleteOffice";
-            ViewDeleteOffice.Size = new Size(141, 26);
+            ViewDeleteOffice.Size = new Size(224, 26);
             ViewDeleteOffice.Text = "Delete";
             ViewDeleteOffice.Click += ViewDeleteOffice_Click;
             // 
             // ViewAllOfiices
             // 
             ViewAllOfiices.Name = "ViewAllOfiices";
-            ViewAllOfiices.Size = new Size(141, 26);
+            ViewAllOfiices.Size = new Size(224, 26);
             ViewAllOfiices.Text = "View";
             ViewAllOfiices.Click += ViewAllOfiices_Click;
             // 
@@ -325,12 +324,6 @@
             ViewAllPayments.Text = "View";
             ViewAllPayments.Click += ViewAllPayments_Click;
             // 
-            // orderProductToolStripMenuItem
-            // 
-            orderProductToolStripMenuItem.Name = "orderProductToolStripMenuItem";
-            orderProductToolStripMenuItem.Size = new Size(112, 24);
-            orderProductToolStripMenuItem.Text = "OrderProduct";
-            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -367,7 +360,6 @@
         private ToolStripMenuItem orderToolStripMenuItem;
         private ToolStripMenuItem productLineToolStripMenuItem;
         private ToolStripMenuItem paymentToolStripMenuItem;
-        private ToolStripMenuItem orderProductToolStripMenuItem;
         private ToolStripMenuItem ViewOfficeCreateForm;
         private ToolStripMenuItem OfficeUpdateForm;
         private ToolStripMenuItem ViewDeleteOffice;
